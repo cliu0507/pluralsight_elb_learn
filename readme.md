@@ -16,9 +16,8 @@ ELB will have the intelligence to send to right zone
 ## Usage case
 A set of web1 and web2 also connect with a ELB (internal) accessing some kinds of APIs, behind this ELB, there will a couple of EC2 instances running that web application needs
 
-## How to architecture
+## How to architect?
 You can have multiple layers of ELB
-
 
 # Amazon ELB specs
 ## Example
@@ -30,5 +29,13 @@ you can set up CNAME alias for <random>.us-east-1.elb.amazonaws.com so you can u
 
 
 ## Application LB (level 7 HTTP, commonly used)
+Commonly Used in real world production environment
+
 ## Network LB (level 4 TCP/IP)
+Basically you can specify the traffic to specific ips
+
 ## Classic LB (legacy)
+Legacy stuff that doesn't really need to memorize
+
+# Website
+https://app.pluralsight.com/library/courses/aws-load-balancing-implementing/table-of-contents
